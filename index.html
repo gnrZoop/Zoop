@@ -1,111 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHLOX - Electronics Store</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>3D Portfolio - cgzoop</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
     <header>
-        <div class="container">
-            <div class="logo">PHLOX</div>
-            <nav>
-                </nav>
-        </div>
-    </header>
+  <div class="logo">CgZoop</div>
+  
+  <div class="controls">
+<select id="languageSwitcher" class="language-select">
+  <option value="en" data-flag="us">🇺🇸 English</option>
+  <option value="si" data-flag="lk">🇱🇰 සිංහල</option>
+  <option value="ja" data-flag="jp">🇯🇵 日本語</option>
+</select>
+   <!-- Dark Mode Toggle Button with Font Awesome Icon -->
+<button id="toggleMode">
+  <i id="modeIcon" class="fas fa-moon"></i>
+</button>
+  </div>
+</header>
 
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Beats Solo</h1>
-                <p class="subtitle">Wireless HEAROVONE</p>
-                <button class="button">Shop by Category</button>
-                <p class="description">There are more sophisticated headphones out there, but the Beats Solo 3 Wireless offer a compelling combination of style and sound.</p>
-            </div>
-            <div class="hero-image">
-                <img src="image.png" alt="Beats Solo Wireless Headphones">
-            </div>
-        </div>
+    <section class="about">
+        <h2 data-key="greeting">Welcome to my 3D Portfolio</h2>
+        <br>
+      <h3 data-key="aboutTitle">About Me</h3>
+      <p data-key="aboutText">
+        I’m a 3D model designer from Sri Lanka skilled in modeling, unwrapping, and texturing using Blender and Illustrator. Fluent in Sinhala, Japanese, and English.
+      </p>
     </section>
 
-    <section class="categories">
-        <div class="container">
-            <div class="category-card">
-                <div class="category-icon"></div>
-                <p>With EARPHONE</p>
-            </div>
-            <div class="category-card">
-                <div class="category-icon"></div>
-                <p>Wear GADGE</p>
-            </div>
-            <div class="category-card">
-                <div class="category-icon"></div>
-                <p>Devices LAPTOP</p>
-            </div>
-            <div class="category-card">
-                <div class="category-icon"></div>
-                <p>Gaming CONSOLE</p>
-            </div>
-            <div class="category-card">
-                <div class="category-icon"></div>
-                <p>Game OCU</p>
-            </div>
-            <div class="category-card">
-                <div class="category-icon"></div>
-                <p>Amazon SPEAKE</p>
-            </div>
-        </div>
-    </section>
+ <section id="portfolio">
+  <h3 data-key="portfolioTitle">My Work</h3>
+  <div class="portfolio-grid">
+    <!-- Model 1 -->
+    <a href="https://www.artstation.com/artwork/Aqna5e" target="_blank" class="portfolio-item">
+      <img src="images/image1.jpg" alt="Model 1">
+    </a>
 
-    <section class="summer-sale">
-        <div class="container">
-            <div class="sale-content">
-                <h2>FIN SMI</h2>
-                <p class="sale-text">Summer Sale</p>
-                <p class="sale-description">Best deals of the year! Up to 50% off on selected items.</p>
-                <button class="button">Shop Now</button>
-            </div>
-            <div class="sale-image">
-                <img src="image.png" alt="Summer Sale Headphones">
-            </div>
-        </div>
-    </section>
+    <!-- Model 2 -->
+    <a href="https://www.artstation.com/artwork/aYV810" target="_blank" class="portfolio-item">
+      <img src="images/image2.jpg" alt="Model 2">
+    </a>
 
-    <section class="best-sellers">
-        <div class="container">
-            <h2>Best Seller Products</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <img src="image.png" alt="Product 1">
-                    <p class="product-name">Product Name 1</p>
-                    <p class="product-price">$99</p>
-                </div>
-                <div class="product-card">
-                    <img src="image.png" alt="Product 2">
-                    <p class="product-name">Rocky Mount</p>
-                    <p class="product-price">$8,250</p>
-                </div>
-                <div class="product-card">
-                    <img src="image.png" alt="Product 3">
-                    <p class="product-name">Product Name 3</p>
-                    <p class="product-price">$250</p>
-                </div>
-                <div class="product-card">
-                    <img src="image.png" alt="Product 4">
-                    <p class="product-name">Product Name 4</p>
-                    <p class="product-price">$5,000</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Model 3 -->
+    <a href="https://www.artstation.com/artwork/18D1xq" target="_blank" class="portfolio-item">
+      <img src="images/image3.jpg" alt="Model 3">
+    </a>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 PHLOX. All rights reserved.</p>
-        </div>
-    </footer>
+    <!-- Model 4 -->
+    <a href="https://www.artstation.com/artwork/Dv1g60" target="_blank" class="portfolio-item">
+      <img src="images/image4.jpg" alt="Model 4">
+    </a>
 
-    <script src="script.js"></script>
+    <!-- See More -->
+    <a href="https://www.artstation.com/cgzoop" target="_blank" class="portfolio-item see-more-btn">
+      <i class="fa-brands fa-artstation"></i>
+      <span data-key="seeMore">See more on ArtStation</span>
+    </a>
+  </div>
+
+  <!-- Buy Now Button -->
+  <div class="buy-now-container">
+    <a href="https://www.cgtrader.com/designers/cgzoop" target="_blank" class="buy-now-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span data-key="buyNow">Buy now on CgTrader</span>
+    </a>
+  </div>
+</section>
+<br>
+  <section id="contact">
+  <h3 data-key="contactTitle">Contact Me</h3>
+<!-- Email Form -->
+<!-- ඉවත් කළා -->
+  <div class="contact-icons">
+    <a href="mailto:uwrspk@outlook.com" target="_blank" title="Email">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <a href="https://wa.me/+94767845255" target="_blank" title="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="https://github.com/gnrZoop" target="_blank" title="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.artstation.com/cgzoop" target="_blank" title="ArtStation">
+      <i class="fa-brands fa-artstation"></i>
+    </a>
+    <a href="https://facebook.com/S.prasanna.bt" target="_blank" title="Facebook">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="https://www.cgtrader.com/designers/cgzoop" target="_blank" title="CgTrader">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+  </div>
+</section>
+  </div>
+<footer class="footer">
+  <p>&copy; <span id="currentYear"></span> CgZoop. All rights reserved.</p>
+</footer>
+  <script src="script.js"></script>
 </body>
 </html>
