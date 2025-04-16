@@ -2,7 +2,7 @@ const translations = {
   en: {
     greeting: "Welcome to my 3D Portfolio",
     aboutTitle: "About Me",
-    aboutText: "I’m a 3D model designer from Sri Lanka skilled in modeling, unwrapping, and texturing using Blender and Illustrator. Fluent in Sinhala, Japanese, and English.",
+    aboutText: "I’m a 3D model designer from Sri Lanka skilled in modeling, unwrapping, and texturing using Blender, Illustrator and Photoshop. ",
     portfolioTitle: "My Work",
     contactTitle: "Contact Me",
     seeMore: "See more on ArtStation",
@@ -18,8 +18,8 @@ const translations = {
   },
   si: {
     greeting: "මගේ 3D පෝර්ට්ෆෝලියෝ වෙත සාදරයෙන් පිළිගනිමු",
-    aboutTitle: "මට පිළිබඳව",
-    aboutText: "මම ශ්‍රී ලංකාවේ සිටින 3D මාදිලි නිර්මාණ ශිල්පියෙකු වන අතර Blender සහ Illustrator භාවිතයෙන් 3D මාදිලි නිර්මාණය, UV unwrapping සහ texturing ක්‍රියාකාරකම් වලට දක්ෂයි. මම සිංහල, ජපන් සහ ඉංග්‍රීසි භාෂා සෙරිනි.",
+    aboutTitle: "මම පිළිබඳව",
+    aboutText: "මම ශ්‍රී ලංකාවේ සිටින 3D මාදිලි නිර්මාණ ශිල්පියෙකු වන අතර Blender සහ Illustrator සහ photoshop භාවිතයෙන් 3D මාදිලි නිර්මාණය, UV unwrapping සහ texturing සිදු කරනවා",
     portfolioTitle: "මගේ කර්යයන්",
     contactTitle: "සම්බන්ධ වන්න",
     seeMore: "තවත් බලන්න - ArtStation",
@@ -36,7 +36,7 @@ const translations = {
   ja: {
     greeting: "私の3Dポートフォリオへようこそ",
     aboutTitle: "私について",
-    aboutText: "私はスリランカ出身の3Dモデルデザイナーで、BlenderとIllustratorを使用したモデリング、UVアンラッピング、テクスチャリングに熟練しています。シンハラ語、日本語、英語が話せます。",
+    aboutText: "私はスリランカ出身の3Dモデルデザイナーで、BlenderとIllustratorを使用したモデリング、UVアンラッピング、テクスチャリングに熟練しています。",
     portfolioTitle: "私の作品",
     contactTitle: "連絡先",
     seeMore: "もっと見る - ArtStation",
